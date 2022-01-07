@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1637183364 source:/home4/di322945/master/semestre 1/MGSI/Projet/Projet2021/cube.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<math.h>
+	"Point.h"
+
+1637091080 /home4/di322945/master/semestre 1/MGSI/Projet/Projet2021/include/Point.h
+
+1637091217 source:/home4/di322945/master/semestre 1/MGSI/Projet/Projet2021/src/Point.cpp
+	"Point.h"
+	<math.h>
+
+1641567796 source:/home4/di322945/master/semestre_1/MGSI/Projet/Projet2021/cube.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<math.h>
+	"Point.h"
+
+1637091080 /home4/di322945/master/semestre_1/MGSI/Projet/Projet2021/include/Point.h
+
+1637091217 source:/home4/di322945/master/semestre_1/MGSI/Projet/Projet2021/src/Point.cpp
+	"Point.h"
+	<math.h>
+
