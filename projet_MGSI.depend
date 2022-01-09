@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1641749342 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/sujet_2.cpp
+	<GLUT/glut.h>
+	<GL/glut.h>
+	<cstdio>
+	<cstdlib>
+	<ctime>
+	<iostream>
+	<GL/freeglut.h>
+	<jpeglib.h>
+	<jerror.h>
+	<math.h>
+	"./src/Point.h"
+
+1641643196 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.cpp
+	"Point.h"
+	<math.h>
+
+1641659262 /home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.h
+
