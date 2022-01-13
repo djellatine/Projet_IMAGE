@@ -1,0 +1,59 @@
+*************************************************
+*           Projet MGSI - Sujet N°2             *
+*      Construction Fil De Fer De Surface       *
+*               Année 2021-2022                 *
+*           Master 1 - Inforamtique             *
+*            UFR STS - 21 000 Dijon             *
+*************************************************
+
++-----------------------------------------------+
+|       Composition du groupe (6 membres)       |
++-----------------------------------------------+
+|               Wassim   DJELLAT                |
+|               Dinaël    INGETA                |
+|               Achraf   L'HAZLI                |
+|               Melissa MAKHLOUF                |
+|               Emilien PRATTICO                |
+|               Axel   TOUSSENEL                |
++-----------------------------------------------+
+
+=================================================
+¤       Liste des commandes importantes         ¤
+¤       pour la soutenance (démo projet)        ¤
+=================================================
+> r     mode rempli/plein
+> f     mode fil de fer
+> s     mode sommets seuls
+> m     filtre moyenneur sur textures
+> v     filtre voisinage sur textures
+> j     mode jour des lumières
+> n     mode nuit des lumières
+> l     animation manuelle du soleil
+> 0     stop/arrêt des animations auto
+> 1     animation automatique (clockwise)
+> 2     animation automatique (reverse clockwise)
+> 3     trace courbe de Bézier quadratique
+> 4     trace structure fractale de Weierstrass
+> 5     trace surface de Bézier quadratique
+> 6     trace surface Bézier x Fractale
+> UP    flèche clavier direction vers le haut
+> DOWN  flèche clavier direction vers le bas
+> LEFT  flèche clavier direction vers la gauche
+> RIGHT flèche clavier direction vers la droite
+> d     active fragments non visibles/cachés
+> D     désactive fragments non visibles/cachés
+> z     mode zoom de la caméra
+> Z     mode dézoom de la caméra
+> q     quitte le programme
+
+=================================================
+=       Documentation simple BUILD and RUN      =
+=================================================
+- pour compiler le code source sans librairies
+> g++ -Wall -g -o sujet_2.cpp
+
+- pour le compiler avec les librairies adéquates
+> g++ -Wall sujet_2.cpp -lGL -lGLU -lglut -lGLEW -lm
+
+- pour exécuter le programme
+> ./a.out
