@@ -47,7 +47,7 @@
 > q     quitte le programme
 
 =================================================
-=       Documentation simple BUILD and RUN      =
+=       Documentation simple BUILD AND RUN      =
 =================================================
 - pour compiler le code source sans librairies
 > g++ -Wall -g -o sujet_2.cpp
