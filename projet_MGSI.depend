@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1641771615 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/sujet_2.cpp
+1642088703 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/sujet_2.cpp
 	<GLUT/glut.h>
 	<GL/glut.h>
 	<cstdio>
@@ -12,9 +12,9 @@
 	<math.h>
 	"./src/Point.h"
 
-1641771615 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.cpp
+1642088703 source:/home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.cpp
 	"Point.h"
 	<math.h>
 
-1641771615 /home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.h
+1642088703 /home2/ep794123/M1/Semestre1/MGSI/Projet/projet_MGSI/src/Point.h
 

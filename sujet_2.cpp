@@ -205,7 +205,7 @@ unsigned int miniFacto(int k, int i)
 /* fonction qui calcule le polynome de Bernstein Bi,n(t) */
 double bernstein(int i, int n, double t)
 {
-    // combinaison nCi (coefficients binomiaux)
+    // combinaison Cn,i (coefficients binomiaux)
     unsigned int c = miniFacto(n, n-i)/facto(i);
     double b = c*pow(1-t, n-i)*pow(t, i);
     return b;
@@ -438,6 +438,13 @@ void drawWeierstrassFractal()
 {
     initTab();
     weierstrassFractal();
+
+    glPointSize(4);
+    glBegin(GL_POINTS);
+        glColor3f(1.0, 0.0, 0.0);
+        glVertex3f(a.x, a.y, a.z);
+        glVertex3d(b.x, b.y, b.z);
+    glEnd();
 
     for (int i=0; i<10*nbRec; i++)
     {
